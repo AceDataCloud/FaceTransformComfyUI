@@ -1,5 +1,7 @@
 # Face Transform for ComfyUI by Ace Data Cloud
 
+> **Access limitation (2026-10-19):** the live Ace catalog marks Face Transformation `private=true`. This guide maintains existing authorized workflows only, without promising new-account access or a public service launch. Registry Active does not establish application entitlement. No new public promotion/package release is being published.
+
 Analyze or transform faces using the action-specific image fields, then inspect the returned result or load its completed image URL. This independent package calls a hosted API; no local model or GPU is needed. Check your access and [current service pricing](https://platform.acedata.cloud/models?utm_source=comfyui&utm_medium=referral&utm_campaign=evergreen&utm_content=facetransformcomfyui_readme_en_pricing) before any paid action.
 
 [简体中文](docs/README.zh-CN.md) · [Ace Data Cloud](https://platform.acedata.cloud?utm_source=comfyui&utm_medium=referral&utm_campaign=evergreen&utm_content=facetransformcomfyui_readme_en_home) · [Issues](https://github.com/AceDataCloud/FaceTransformComfyUI/issues)
@@ -7,7 +9,7 @@ Analyze or transform faces using the action-specific image fields, then inspect 
 
 ## Current version and install source
 
-This source version is **0.1.1**. Check [GitHub Releases](https://github.com/AceDataCloud/FaceTransformComfyUI/releases) for its versioned ZIP. The Registry section below retains the last verified **Active 0.1.0 on 2026-10-19**; that older ZIP does not contain this release's updated guide, examples or fixes. To use this version, install its GitHub Release ZIP, or select the exact **0.1.1** Registry release once it becomes Active. Do not substitute the initial nightly selection for a verified stable release.
+This source version is **0.1.1**. If a release is later approved, check [GitHub Releases](https://github.com/AceDataCloud/FaceTransformComfyUI/releases) for its versioned ZIP. The Registry section below retains the last verified **Active 0.1.0 on 2026-10-19**; that older ZIP does not contain this release's updated guide, examples or fixes. To use this version, install its GitHub Release ZIP, or select the exact **0.1.1** Registry release once it becomes Active. Do not substitute the initial nightly selection for a verified stable release.
 
 To install the GitHub ZIP, stop ComfyUI and back up any existing node directory. Extract the ZIP contents into `ComfyUI/custom_nodes/face-transform/` without adding an extra nested directory, run `python -m pip install -r requirements.txt` there, then restart and refresh. Keep the API Token in the actual launch-process environment. A GitHub ZIP install is separate from a verified Registry/Manager stable installation.
 

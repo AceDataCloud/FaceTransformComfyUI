@@ -1,5 +1,7 @@
 # Ace Data Cloud 的 ComfyUI Face Transform 节点
 
+> **权限范围（2026-10-19）：** 线上Ace服务目录将Face Transformation标为`private=true`。本指南仅维护已有权限的工作流，不承诺新账户开通或公开服务上线。Registry包Active不代表应用有服务权限；本次不发布新的公开推广包。
+
 按动作填写图像字段，执行人脸分析或转换，查看返回结果，或加载已完成的图片URL。独立节点包调用云API，无需本地模型或显卡；收费前确认自己的权限、余额和当前价格。
 
 [English guide](../README.md)
@@ -7,7 +9,7 @@
 
 ## 当前版本与安装来源
 
-本源码版本为 **0.1.1**，版本 ZIP 见 [GitHub Releases](https://github.com/AceDataCloud/FaceTransformComfyUI/releases)。下文 Registry 安装段保留 **2026-10-19 已核 Active 的 0.1.0**；该旧 ZIP 尚不包含本版更新的图文、示例或修复。需要本版时，使用对应 GitHub Release ZIP，或等 Registry 中准确的 **0.1.1** 变为 Active 后再手选该版本；不要用默认 nightly 代替已核 stable。
+本源码版本为 **0.1.1**，后续若有合格发布，版本 ZIP 见 [GitHub Releases](https://github.com/AceDataCloud/FaceTransformComfyUI/releases)。下文 Registry 安装段保留 **2026-10-19 已核 Active 的 0.1.0**；该旧 ZIP 尚不包含本版更新的图文、示例或修复。需要本版时，使用对应 GitHub Release ZIP，或等 Registry 中准确的 **0.1.1** 变为 Active 后再手选该版本；不要用默认 nightly 代替已核 stable。
 
 从 GitHub ZIP 安装：停止 ComfyUI，先备份已有同名节点目录，把 ZIP 内文件解压到 `ComfyUI/custom_nodes/face-transform/`（不要多嵌套一层目录），在该目录运行 `python -m pip install -r requirements.txt`，然后重启并刷新。API Token 仍只配在实际启动进程环境中。GitHub ZIP 安装与 Registry/Manager 正式稳定版安装是不同路径。
 
